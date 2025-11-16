@@ -188,12 +188,12 @@ for i = 1, config_Keybinds["PositionSaveCount"] do
         Utils.print("LoadPosition " .. i .. " not found in config_keybinds.lua")
     end
     if config_Keybinds["SavePosition " .. i] then
-        Utils.RegisterKey("SavePosition " .. i, function () PseudoregaliaSavestates.SavePosition(i, TypeTeleport) end, config_Keybinds["SavePosition ".. i]["Key"], config_Keybinds["SavePosition ".. i]["ModifierKeys"], false)
+        Utils.RegisterKey("SavePosition " .. i, function () PseudoregaliaSavestates.SavePosition(i, TypeArea) end, config_Keybinds["SavePosition ".. i]["Key"], config_Keybinds["SavePosition ".. i]["ModifierKeys"], false)
     else
         Utils.print("SavePosition " .. i .. " not found in config_keybinds.lua")
     end
     if config_Keybinds["SaveTeleport " .. i] then
-        Utils.RegisterKey("SaveTeleport " .. i, function () PseudoregaliaSavestates.SavePosition(i, TypeArea) end, config_Keybinds["SaveTeleport ".. i]["Key"], config_Keybinds["SaveTeleport ".. i]["ModifierKeys"], false)
+        Utils.RegisterKey("SaveTeleport " .. i, function () PseudoregaliaSavestates.SavePosition(i, TypeTeleport) end, config_Keybinds["SaveTeleport ".. i]["Key"], config_Keybinds["SaveTeleport ".. i]["ModifierKeys"], false)
     else
         Utils.print("SaveTeleport " .. i .. " not found in config_keybinds.lua")
     end
