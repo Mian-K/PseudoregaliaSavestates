@@ -4,10 +4,16 @@ To enable, edit "<PsuedoregaliaFolder>/pseudoregalia/Binaries/Win64/Mods/mods.tx
 Positions are saved to: "<PsuedoregaliaFolder>/pseudoregalia/Binaries/Win64/Mods/PseudoregaliaSavestates/Saves/SavedPositions.txt"
 Keybinds saved in "<PsuedoregaliaFolder>/pseudoregalia/Binaries/Win64/Mods/PseudoregaliaSavestates/Scripts/config_keybinds.lua"
 
-By default the keybinds are set to F5-F8 for loading and Ctrl + F5-F8 for saving.
+When saving a Position, you can set it's behaviour when already in the same area:
+F5-F8 - Position IDs 1-4
+Ctrl only - Save Position with Area Reload enabled
+Ctrl + Shift - Save Position with Area Reload disabled
+Alt + Shift - Save Position with Save Reload enabled
+
+Note: In my testing Teleport only has a somewhat higher chance to cause crashes, though it is inconsistent.
 
 Default SavedPositions:
-F5 - Princess Fight
-F6 - Tower Climb
-F7 - Map Update Keep Key Trial Skip
-F8 - Underbelly Key approach
+F5 - Princess Fight (Area Reload)
+F6 - Tower Climb (Teleport)
+F7 - Map Update Keep Key Trial Skip (Teleport)
+F8 - Underbelly Key approach (Teleport)

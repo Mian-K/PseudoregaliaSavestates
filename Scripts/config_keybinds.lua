@@ -6,10 +6,18 @@ local Keybinds = {
     ["LoadPosition 2"]  = {["Key"] = Key.F6, ["ModifierKeys"] = {}},
     ["LoadPosition 3"]  = {["Key"] = Key.F7, ["ModifierKeys"] = {}},
     ["LoadPosition 4"]  = {["Key"] = Key.F8, ["ModifierKeys"] = {}},
-    ["SavePosition 1"]  = {["Key"] = Key.F5, ["ModifierKeys"] = {ModifierKey.CONTROL}},
-    ["SavePosition 2"]  = {["Key"] = Key.F6, ["ModifierKeys"] = {ModifierKey.CONTROL}},
-    ["SavePosition 3"]  = {["Key"] = Key.F7, ["ModifierKeys"] = {ModifierKey.CONTROL}},
-    ["SavePosition 4"]  = {["Key"] = Key.F8, ["ModifierKeys"] = {ModifierKey.CONTROL}}
+	["SavePosition 1"]  = {["Key"] = Key.F5, ["ModifierKeys"] = {ModifierKey.CONTROL}},
+	["SavePosition 2"]  = {["Key"] = Key.F6, ["ModifierKeys"] = {ModifierKey.CONTROL}},
+	["SavePosition 3"]  = {["Key"] = Key.F7, ["ModifierKeys"] = {ModifierKey.CONTROL}},
+	["SavePosition 4"]  = {["Key"] = Key.F8, ["ModifierKeys"] = {ModifierKey.CONTROL}},
+	["SaveTeleport 1"]  = {["Key"] = Key.F5, ["ModifierKeys"] = {ModifierKey.SHIFT, ModifierKey.CONTROL}},
+	["SaveTeleport 2"]  = {["Key"] = Key.F6, ["ModifierKeys"] = {ModifierKey.SHIFT, ModifierKey.CONTROL}},
+	["SaveTeleport 3"]  = {["Key"] = Key.F7, ["ModifierKeys"] = {ModifierKey.SHIFT, ModifierKey.CONTROL}},
+	["SaveTeleport 4"]  = {["Key"] = Key.F8, ["ModifierKeys"] = {ModifierKey.SHIFT, ModifierKey.CONTROL}},
+	["SaveReload 1"] = {["Key"] = Key.F5, ["ModifierKeys"] = {ModifierKey.SHIFT, ModifierKey.ALT}},
+	["SaveReload 2"] = {["Key"] = Key.F6, ["ModifierKeys"] = {ModifierKey.SHIFT, ModifierKey.ALT}},
+	["SaveReload 3"] = {["Key"] = Key.F7, ["ModifierKeys"] = {ModifierKey.SHIFT, ModifierKey.ALT}},
+	["SaveReload 4"] = {["Key"] = Key.F8, ["ModifierKeys"] = {ModifierKey.SHIFT, ModifierKey.ALT}}
 }
 return Keybinds
 
